@@ -11,6 +11,7 @@
 		CD611E282A93663F009364ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD611E272A93663F009364ED /* ContentView.swift */; };
 		CD611E2A2A936644009364ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD611E292A936644009364ED /* Assets.xcassets */; };
 		CD611E2D2A936644009364ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD611E2C2A936644009364ED /* Preview Assets.xcassets */; };
+		CD611E342A936B22009364ED /* DoCatchTryThrowsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD611E332A936B22009364ED /* DoCatchTryThrowsBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		CD611E272A93663F009364ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CD611E292A936644009364ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD611E2C2A936644009364ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD611E332A936B22009364ED /* DoCatchTryThrowsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrowsBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				CD611E252A93663F009364ED /* SwiftConcurrencyApp.swift */,
 				CD611E272A93663F009364ED /* ContentView.swift */,
+				CD611E332A936B22009364ED /* DoCatchTryThrowsBootcamp.swift */,
 				CD611E292A936644009364ED /* Assets.xcassets */,
 				CD611E2B2A936644009364ED /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD611E342A936B22009364ED /* DoCatchTryThrowsBootcamp.swift in Sources */,
 				CD611E282A93663F009364ED /* ContentView.swift in Sources */,
 				CD611E262A93663F009364ED /* SwiftConcurrencyApp.swift in Sources */,
 			);
