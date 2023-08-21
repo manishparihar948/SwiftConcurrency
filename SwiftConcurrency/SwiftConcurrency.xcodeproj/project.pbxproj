@@ -13,6 +13,7 @@
 		CD611E2D2A936644009364ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD611E2C2A936644009364ED /* Preview Assets.xcassets */; };
 		CD611E342A936B22009364ED /* DoCatchTryThrowsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD611E332A936B22009364ED /* DoCatchTryThrowsBootcamp.swift */; };
 		CD611E362A938A19009364ED /* DownloadImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD611E352A938A18009364ED /* DownloadImageAsync.swift */; };
+		CD611E382A93A008009364ED /* AsyncAwaitBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD611E372A93A008009364ED /* AsyncAwaitBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		CD611E2C2A936644009364ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CD611E332A936B22009364ED /* DoCatchTryThrowsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrowsBootcamp.swift; sourceTree = "<group>"; };
 		CD611E352A938A18009364ED /* DownloadImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsync.swift; sourceTree = "<group>"; };
+		CD611E372A93A008009364ED /* AsyncAwaitBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				CD611E272A93663F009364ED /* ContentView.swift */,
 				CD611E332A936B22009364ED /* DoCatchTryThrowsBootcamp.swift */,
 				CD611E352A938A18009364ED /* DownloadImageAsync.swift */,
+				CD611E372A93A008009364ED /* AsyncAwaitBootcamp.swift */,
 				CD611E292A936644009364ED /* Assets.xcassets */,
 				CD611E2B2A936644009364ED /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 				CD611E362A938A19009364ED /* DownloadImageAsync.swift in Sources */,
 				CD611E342A936B22009364ED /* DoCatchTryThrowsBootcamp.swift in Sources */,
 				CD611E282A93663F009364ED /* ContentView.swift in Sources */,
+				CD611E382A93A008009364ED /* AsyncAwaitBootcamp.swift in Sources */,
 				CD611E262A93663F009364ED /* SwiftConcurrencyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
