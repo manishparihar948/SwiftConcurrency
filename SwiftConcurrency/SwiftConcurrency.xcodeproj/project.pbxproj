@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD487A452A97A36E00A81457 /* MVVMBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD487A442A97A36E00A81457 /* MVVMBootCamp.swift */; };
 		CD611E262A93663F009364ED /* SwiftConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD611E252A93663F009364ED /* SwiftConcurrencyApp.swift */; };
 		CD611E282A93663F009364ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD611E272A93663F009364ED /* ContentView.swift */; };
 		CD611E2A2A936644009364ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD611E292A936644009364ED /* Assets.xcassets */; };
@@ -18,9 +19,11 @@
 		CD611E3C2A94C4D9009364ED /* AsyncLetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD611E3B2A94C4D9009364ED /* AsyncLetBootcamp.swift */; };
 		CD611E3E2A94CA45009364ED /* TaskGroupBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD611E3D2A94CA45009364ED /* TaskGroupBootcamp.swift */; };
 		CD611E402A955131009364ED /* ContinuationsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD611E3F2A955131009364ED /* ContinuationsBootcamp.swift */; };
+		CD611E422A955BE7009364ED /* StructClassActorBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD611E412A955BE7009364ED /* StructClassActorBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD487A442A97A36E00A81457 /* MVVMBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMBootCamp.swift; sourceTree = "<group>"; };
 		CD611E222A93663F009364ED /* SwiftConcurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD611E252A93663F009364ED /* SwiftConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyApp.swift; sourceTree = "<group>"; };
 		CD611E272A93663F009364ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +36,7 @@
 		CD611E3B2A94C4D9009364ED /* AsyncLetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetBootcamp.swift; sourceTree = "<group>"; };
 		CD611E3D2A94CA45009364ED /* TaskGroupBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupBootcamp.swift; sourceTree = "<group>"; };
 		CD611E3F2A955131009364ED /* ContinuationsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuationsBootcamp.swift; sourceTree = "<group>"; };
+		CD611E412A955BE7009364ED /* StructClassActorBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructClassActorBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 				CD611E3B2A94C4D9009364ED /* AsyncLetBootcamp.swift */,
 				CD611E3D2A94CA45009364ED /* TaskGroupBootcamp.swift */,
 				CD611E3F2A955131009364ED /* ContinuationsBootcamp.swift */,
+				CD611E412A955BE7009364ED /* StructClassActorBootcamp.swift */,
+				CD487A442A97A36E00A81457 /* MVVMBootCamp.swift */,
 				CD611E292A936644009364ED /* Assets.xcassets */,
 				CD611E2B2A936644009364ED /* Preview Content */,
 			);
@@ -158,10 +164,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD487A452A97A36E00A81457 /* MVVMBootCamp.swift in Sources */,
 				CD611E362A938A19009364ED /* DownloadImageAsync.swift in Sources */,
 				CD611E342A936B22009364ED /* DoCatchTryThrowsBootcamp.swift in Sources */,
 				CD611E282A93663F009364ED /* ContentView.swift in Sources */,
 				CD611E3A2A93A77B009364ED /* TaskBootcamp.swift in Sources */,
+				CD611E422A955BE7009364ED /* StructClassActorBootcamp.swift in Sources */,
 				CD611E382A93A008009364ED /* AsyncAwaitBootcamp.swift in Sources */,
 				CD611E262A93663F009364ED /* SwiftConcurrencyApp.swift in Sources */,
 				CD611E402A955131009364ED /* ContinuationsBootcamp.swift in Sources */,
