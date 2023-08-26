@@ -21,13 +21,14 @@ final class RefreshableViewModel : ObservableObject {
     let manager = RefreshableDataService()
     
     func loadData() async {
-        do {
+            do {
                 items = try await manager.getData()
-        } catch {
+            } catch {
                 print(error)
-        }
+            }
     }
    
+    
 }
 
 
@@ -46,11 +47,11 @@ struct RefreshableBootcamp: View {
                 }
             }
             .refreshable {
-               await viewModel.loadData()
+              await  viewModel.loadData()
             }
             .navigationTitle("Refreshable")
             .task {
-               await viewModel.loadData()
+              await  viewModel.loadData()
             }
         }
     }
